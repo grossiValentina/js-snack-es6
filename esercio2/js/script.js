@@ -31,11 +31,19 @@ const squadre = [
 
 
 
+
+
+// funzione inserimento numeri random
+    
+    function inserimentoValori(squadre) {
+        squadre.forEach((curSquadra) => {
+            curSquadra.puntiFatti = puntiRandom();
+            curSquadra.falliSubiti = falliRandom();
+        });
+        
+    }
     
     
-
-
-
 
 // funzione per numero falli random 
 function falliRandom() {
@@ -44,8 +52,6 @@ function falliRandom() {
 
     return numeroRandom;
 }
-
-falliRandom()
 
 
 // funzione per numero punti random 
@@ -56,7 +62,7 @@ function puntiRandom() {
     return numeroRandom;
 
 }
-puntiRandom()
+
 
 
 

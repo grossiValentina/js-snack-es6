@@ -7,5 +7,8 @@ Stampare a schermo la bici con peso minore utilizzando destructuring e template 
 
 
 **SVOLGIMENTO**
-1. crea un array di oggetti, ogni oggetto avrà nome e peso
-2. 
+1. creare una variabile "pesoMinimo" che seleziona l'array numero 0 e che andrà a selezionare il valore "peso";
+
+2. confrontare i valori dei "peso" fra di loro;
+
+3. elaboro il messaggio e lo stampo in console il riportando il peso della bicicletta più leggera;
